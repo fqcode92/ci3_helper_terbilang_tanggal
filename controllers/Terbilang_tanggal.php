@@ -12,9 +12,7 @@ class Terbilang_tanggal extends CI_Controller
 
     public function index()
     {
-        $tanggal = '2022-12-0a1';
-
-        // echo $tanggal . '<br/>';
+        $tanggal = '2022-12-01';
 
         // menampilkan tanggal dalam format versi panjang dengan hari
         $tanggal_lengkap = terbilang_tanggal($tanggal);
